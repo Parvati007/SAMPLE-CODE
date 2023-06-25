@@ -1,0 +1,95 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+.wrapper{
+    background:url("/photo-1615461066841-6116e61058f4.jpeg");
+    background-size: cover;
+    height:140vh;
+    max-width:100%; 
+}
+.topnav{
+    background-color: black;
+    overflow:hidden;
+    transition:2s;
+}
+.topnav a{
+    float:right;
+    color:white;
+    text-align: center;
+    padding:15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: aliceblue;
+    color:black;
+    transform:scale(1.2)
+}
+.topnav a.active{
+    background-color: red;
+    color:white;
+
+}
+label{
+    align-items: right;
+}
+.register{
+    padding:50px ;
+    margin: 5px;
+    border: 5px solid red ;
+    width:600px ;
+    background-color: rgba(0, 0, 0, 0.447);
+    color: aliceblue;
+    display:inline-block;
+}
+#paru:hover{
+    padding:50px ;
+    margin: 5px;
+    border: 5px solid red ;
+    width:1100px ;
+    background-color: rgba(0, 0, 0, 0.447);
+    color: aliceblue;
+    transition:1s;
+
+}
+#laku:hover{
+    padding:50px ;
+    margin: 5px;
+    border: 5px solid red ;
+    width:1100px ;
+    background-color: rgba(0, 0, 0, 0.447);
+    color: aliceblue;
+    transition:1s;
+}
+.papa{
+    padding:5px ;
+    margin: 0%;
+    width:100% ;
+    background-color: red;
+    color: aliceblue;
+
+}
+#mughda{
+    padding:5px ;
+    margin: 0%;
+    width:100% ;
+    background-color: rgba(255, 0, 0, 0.407);
+    color: aliceblue;
+
+}
+h3{
+    color:red;
+}
+#eshu{
+    background-color: rgba(0, 0, 0, 0.632);
+    padding: 5PX;
+    margin: 0%;
+    border: 5PX solid red;
+}
+#ok{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
